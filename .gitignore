@@ -1,8 +1,11 @@
-# Ignorar node_modules na pasta raiz
+
 node_modules/
 
-# Ignorar node_modules na pasta backend-my-blog
+
 /backend-my-blog/node_modules/
 
-# Ignorar node_modules na pasta react-my-blog
+
 /react-my-blog/node_modules/
+
+
+/backend/mongo-db-data
