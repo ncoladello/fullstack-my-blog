@@ -6,6 +6,8 @@ import ArticlesListPage from "./pages/ArticlesListPage";
 import AboutPage from "./pages/AboutPage";
 import NavBar from "./components/NavBar";
 import NotFoundPage from "./pages/NotFoundPage";
+import LoginPage from "./pages/LogingPage";
+import CreateAccountPage from "./pages/CreateAccount";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/articles" element={<ArticlesListPage/>} />
             <Route path="/articles/:articleId" element={<ArticlePage />} />             
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/create-account" element={<CreateAccountPage />} />
             <Route path="*" element={<NotFoundPage />} />             
           </Routes>
         </div>
