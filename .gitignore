@@ -9,3 +9,5 @@ node_modules/
 
 
 /backend/mongo-db-data
+
+/backend/credentials.json
